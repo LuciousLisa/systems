@@ -1,0 +1,5 @@
+# ACTION	SOURCE	DEST	PROTO	DPOST	SPORT	USER	TEST	LENGTH	TOS	CONNBYTES
+4		fw	-	tcp	-	80,443
+4		fw	-	-	-	-	www-data
+5		fw	-	tcp	-	80,443
+5		fw	-	-	-	-	pirateproxy

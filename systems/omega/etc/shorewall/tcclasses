@@ -1,0 +1,5 @@
+# DEVICE	MARK	RATE	CEIL	PRIORITY	OPTIONS
+eth0		2	1mbit	10mbit	2		tcp-ack,tos-minimize-delay
+eth0		3	2mbit	10mbit	3		default
+eth0		4	1mbit	1mbit	4		flow=dst
+eth0		5	1mbit	5mbit	5		flow=dst

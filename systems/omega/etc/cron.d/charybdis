@@ -1,0 +1,1 @@
+*/1 * * * * charybdis /usr/local/bin/ircd.cron
