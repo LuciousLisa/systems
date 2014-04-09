@@ -15,7 +15,7 @@ encrypt-kdb: passwords.kdb-encrypt
 
 decrypt-kdb:
 	git pull
-	gpg --quiet -d 00-base.kdb.asc > 00-base.kdb
+	gpg --quiet -d passwords.kdb.asc > passwords.kdb
 
 encrypt: encrypt-kdb
 decrypt: decrypt-kdb
