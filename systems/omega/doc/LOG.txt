@@ -115,3 +115,12 @@ The following NEW packages will be installed:
 omega :: ~ » aptitude install bind9
 The following NEW packages will be installed:
   bind9 bind9utils{a}
+  
+  
+2014-04-10 techwolf12
+-----------------
+apt-get install php5-fpm nginx  
+  (Dit stukje is helaas verloren gegaan door mijn overzicht clear)
+
+
+
