@@ -1,0 +1,4 @@
+zone "piratenpartij.nl." IN {
+	type	master;
+	file	"/etc/bind/zones/piratenpartij.nl/piratenpartij.nl";
+};

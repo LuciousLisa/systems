@@ -108,3 +108,10 @@ The following NEW packages will be installed:
 omega :: /opt/atheme/charybdis » aptitude install libcap2-bin   
 The following NEW packages will be installed:
   libcap2-bin libpam-cap{a}
+
+2014-04-10 argure
+-----------------
+
+omega :: ~ » aptitude install bind9
+The following NEW packages will be installed:
+  bind9 bind9utils{a}
