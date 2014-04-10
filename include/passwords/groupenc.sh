@@ -5,8 +5,9 @@
 
 argure=98C9D1FC2C64E0AADA49175FE048E6B1ECC14594
 geertjohan=8A9A65E555540888C73B1D1B8CD6809649CB7385
+techwolf12=C4ECD870FAEE9543135DAE6477D0D3E05A5F9A27
 
-sysadmins="$argure $geertjohan"
+sysadmins="$argure $geertjohan $techwolf12"
 
 eval "groupmembers=\$$1"
 
