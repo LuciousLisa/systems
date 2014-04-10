@@ -27,6 +27,7 @@ server {
 		if ($http_host ~ "^(.+)\.proxy\.piratenpartij\.nl$"){
    		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/%1/$1 redirect;
   		}
+		rewrite        ^ https://$server_name$request_uri? permanent;
 		proxy_set_header Host $host;
 		proxy_pass        http://127.0.0.1:2080/;
 	}
