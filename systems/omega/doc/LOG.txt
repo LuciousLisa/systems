@@ -120,7 +120,17 @@ The following NEW packages will be installed:
 2014-04-10 techwolf12
 -----------------
 apt-get install php5-fpm nginx  
-  (Dit stukje is helaas verloren gegaan door mijn overzicht clear)
+  # Dit stukje is helaas verloren gegaan door mijn overzicht clear)
+
 apt-get remove php5-fpm
 
+2014-04-10 argure
+-----------------
 
+omega :: /etc/php5 » apt-get remove --purge php5-fpm
+The following packages will be REMOVED:
+  php5-fpm*
+
+omega :: /etc/php5 » apt-get autoremove             
+The following packages will be REMOVED:
+  libonig2 libqdbm14 php5-common
