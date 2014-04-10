@@ -26,7 +26,7 @@ key_path="/etc/ssl/private"
 mkdir "${csr_path}"
 mkdir "${dh_path}"
 mkdir "${ecdh_path}"
-wget http://www.startssl.com/certs/class2/sha2/pem/sub.class2.server.sha2.ca.pem -P "${pem_path}"
+wget https://www.startssl.com/certs/class2/sha2/pem/sub.class2.server.sha2.ca.pem -P "${pem_path}"
 
 echo "Generating private key and CSR..."
 openssl req -new -newkey rsa:4096 -nodes -sha512 -out "${csr_path}"/"$1".csr \
