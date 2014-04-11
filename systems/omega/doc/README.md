@@ -4,7 +4,7 @@ omega
 Services
 --------
 
- * apache2 + PirateProxy (proxyserver)
+ * nginx + PirateProxy (proxyserver)
  * charybdis (IRC server)
 
 Specificaties
