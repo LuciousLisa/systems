@@ -12,7 +12,7 @@ server {
 
 	location / {
 		if ($http_host ~ "^(.+)\.proxy\.piratenpartij\.nl$"){
-   		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/%1/$1 redirect;
+   		 return 301 https://proxy.piratenpartij.nl/%1/$1;
   		}
 		 proxy_set_header X_FORWARDED_PROTO https;
               	proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -31,7 +31,7 @@ server {
 
 	location / {
 		if ($http_host ~ "^(.+)\.proxy\.piratenpartij\.nl$"){
-   		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/%1/$1 redirect;
+   		 return 301 https://proxy.piratenpartij.nl/%1/$1;
   		}
 		rewrite        ^ https://$server_name$request_uri? permanent;
 		proxy_set_header Host $host;

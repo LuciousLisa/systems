@@ -11,7 +11,7 @@ server {
 	ssl_prefer_server_ciphers on;
 
 	location / {
-		 rewrite ^(.*)$ http://proxy.piratenpartij.nl/thepiratebay.se permanent;
+		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/thepiratebay.se permanent;
 	}
 }
 
@@ -20,6 +20,6 @@ server {
 	server_name tpb.piratenpartij.nl;
 
 	location / {
-		 rewrite ^(.*)$ http://proxy.piratenpartij.nl/thepiratebay.se permanent;
+		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/thepiratebay.se permanent;
 	}
 }
