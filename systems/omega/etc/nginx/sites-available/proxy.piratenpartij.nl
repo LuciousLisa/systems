@@ -14,6 +14,12 @@ server {
 		if ($http_host ~ "^(.+)\.proxy\.piratenpartij\.nl$"){
    		 rewrite ^(.*)$ https://proxy.piratenpartij.nl/%1/$1 redirect;
   		}
+		 proxy_set_header X_FORWARDED_PROTO https;
+              	proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+              	proxy_set_header  Host $http_host;
+              	proxy_set_header  X-Url-Scheme $scheme;
+              	proxy_redirect    off;
+              	proxy_max_temp_file_size 0;
 		proxy_set_header Host $host;
 		proxy_pass        http://127.0.0.1:2080/;
 	}
