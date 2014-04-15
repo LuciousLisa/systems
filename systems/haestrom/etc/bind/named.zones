@@ -1,0 +1,5 @@
+zone "piratenpartij.nl." IN {
+	type	slave;
+	file	"/var/cache/bind/piratenpartij.nl.zone";
+	masters { 149.210.173.162; };
+};

@@ -1,0 +1,59 @@
+haestrom
+========
+
+2014-04-15 argure
+-----------------
+
+root@haestrom:~# aptitude install zsh
+The following NEW packages will be installed:
+  zsh 
+
+root@haestrom:~# aptitude install git git-core
+The following NEW packages will be installed:
+  git git-core git-man{a} libcurl3-gnutls{a} liberror-perl{a} librtmp0{a} 
+  libssh2-1{a} rsync{a}
+
+haestrom :: ~ » aptitude install shorewall shorewall6 fail2ban 
+The following NEW packages will be installed:
+  fail2ban gamin{a} libffi5{a} libgamin0{a} libglib2.0-0{a} 
+  libglib2.0-data{a} libio-socket-inet6-perl{a} libsocket6-perl{a} 
+  python-central{a} python-gamin{a} shared-mime-info{a} shorewall 
+  shorewall-core{a} shorewall6 
+
+haestrom :: /etc/shorewall6 » aptitude install shorewall-doc             127 ↵
+The following NEW packages will be installed:
+  shorewall-doc 
+
+haestrom :: git/znc/znc ‹49cf40b› » aptitude install build-essential \   130 ↵
+libssl-dev                  
+The following NEW packages will be installed:
+  binutils{a} build-essential cpp{a} cpp-4.7{a} dpkg-dev{a} fakeroot{a} 
+  g++{a} g++-4.7{a} gcc{a} gcc-4.7{a} libalgorithm-diff-perl{a} 
+  libalgorithm-diff-xs-perl{a} libalgorithm-merge-perl{a} libc-dev-bin{a} 
+  libc6-dev{a} libdpkg-perl{a} libfile-fcntllock-perl{a} libgmp10{a} 
+  libgomp1{a} libitm1{a} libmpc2{a} libmpfr4{a} libquadmath0{a} libssl-dev 
+  libssl-doc{a} libstdc++6-4.7-dev{a} libtimedate-perl{a} 
+  linux-libc-dev{a} make{a} manpages-dev{a} zlib1g-dev{a} 
+
+haestrom :: git/znc/znc ‹49cf40b› » aptitude install automake gettext
+The following NEW packages will be installed:
+  autoconf{a} automake autopoint{a} autotools-dev{a} gettext libcroco3{a} 
+  libgettextpo0{a} libunistring0{a} 
+
+haestrom :: git/znc/znc ‹49cf40b› » aptitude install oidentd
+The following NEW packages will be installed:
+  oidentd 
+
+haestrom :: git/znc/znc ‹49cf40b› » aptitude install pkg-config          127 ↵
+The following NEW packages will be installed:
+  pkg-config 
+
+haestrom :: git/znc/znc ‹49cf40b*› » make install
+
+haestrom :: /opt » addgroup znc --system
+
+haestrom :: /opt » adduser --ingroup=znc --system --home=/var/lib/znc znc
+
+haestrom :: ~ » aptitude install bind9                                   127 ↵
+The following NEW packages will be installed:
+  bind9 bind9utils{a}

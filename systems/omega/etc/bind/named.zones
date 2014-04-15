@@ -1,4 +1,5 @@
 zone "piratenpartij.nl." IN {
 	type	master;
 	file	"/etc/bind/zones/piratenpartij.nl/piratenpartij.nl";
+	allow-transfer { 185.27.175.102; };
 };

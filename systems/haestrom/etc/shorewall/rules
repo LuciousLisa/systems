@@ -15,6 +15,9 @@
 #SECTION RELATED
 SECTION NEW
 
+# NOTE: For this server, remember to also update the ingress rules in the
+# PCextreme control panel.
+
 # ICMP
 ACCEPT		net		fw		icmp	8
 ACCEPT		fw		net		icmp
@@ -24,14 +27,11 @@ ACCEPT		net		fw		tcp	22
 
 # DNS
 ACCEPT		net		fw		tcp	53
-ACCEPT		net		fw		udp	53
+ACCEPT		net		fw	 	udp	53
 
-# HTTP(S)
-ACCEPT		net		fw		tcp	80	-		-		s:apache2:10/min:15
-ACCEPT		net		fw		tcp	443	-		-		s:apache2:10/min:15
+# Ident
+ACCEPT		net		fw		tcp	113
 
-# IRC(S)
-ACCEPT		net		fw		tcp	194
-ACCEPT		net		fw		tcp	994
+# ZNC
 ACCEPT		net		fw		tcp	6667
 ACCEPT		net		fw		tcp	6697
