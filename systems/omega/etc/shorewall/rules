@@ -35,3 +35,7 @@ ACCEPT		net		fw		tcp	194
 ACCEPT		net		fw		tcp	994
 ACCEPT		net		fw		tcp	6667
 ACCEPT		net		fw		tcp	6697
+
+# Nagios
+ACCEPT		$HAESTROM	fw		tcp	5666
+ACCEPT		$HAESTROM	fw		udp	5666

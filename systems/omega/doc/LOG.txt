@@ -148,3 +148,31 @@ The following NEW packages will be installed:
   apache2 apache2-bin{a} apache2-data{a} libapr1{a} libaprutil1{a} 
   libaprutil1-dbd-sqlite3{a} libaprutil1-ldap{a} libdb5.3{a} liblua5.1-0{a} 
   ssl-cert{a}
+
+omega :: ~ » aptitude install nagios-nrpe-server                            1 ↵
+The following NEW packages will be installed:
+  fping{a} freeipmi-common{a} freeipmi-tools{a} libclass-accessor-perl{a} 
+  libconfig-tiny-perl{a} libdate-manip-perl{a} libencode-locale-perl{a} 
+  libfile-listing-perl{a} libfont-afm-perl{a} libfreeipmi12{a} 
+  libhtml-form-perl{a} libhtml-format-perl{a} libhtml-parser-perl{a} 
+  libhtml-tagset-perl{a} libhtml-tree-perl{a} libhttp-cookies-perl{a} 
+  libhttp-daemon-perl{a} libhttp-date-perl{a} libhttp-message-perl{a} 
+  libhttp-negotiate-perl{a} libio-pty-perl{a} libio-socket-ssl-perl{a} 
+  libipc-run-perl{a} libipmiconsole2{a} libipmidetect0{a} 
+  liblwp-mediatypes-perl{a} liblwp-protocol-https-perl{a} 
+  liblwp-useragent-determined-perl{a} libmail-imapclient-perl{a} 
+  libmath-calc-units-perl{a} libmemcached10{a} 
+  libmodule-implementation-perl{a} libmodule-runtime-perl{a} 
+  libmysqlclient18{a} libnagios-plugin-perl{a} libnet-http-perl{a} 
+  libnet-libidn-perl{a} libnet-smtp-tls-perl{a} libnet-snmp-perl{a} 
+  libnet-ssleay-perl{a} libparams-classify-perl{a} 
+  libparams-validate-perl{a} libparse-recdescent-perl{a} libperl5.14{a} 
+  libpq5{a} libradiusclient-ng2{a} libreadonly-perl{a} 
+  libreadonly-xs-perl{a} libruby1.9.1{a} libsensors4{a} libsnmp-base{a} 
+  libsnmp15{a} libsub-name-perl{a} libtalloc2{a} libtdb1{a} 
+  libtry-tiny-perl{a} liburi-perl{a} libwbclient0{a} libwww-perl{a} 
+  libwww-robotrules-perl{a} libyaml-0-2{a} libyaml-syck-perl{a} 
+  mysql-common{a} nagios-nrpe-server nagios-plugins{a} 
+  nagios-plugins-basic{a} nagios-plugins-common{a} 
+  nagios-plugins-contrib{a} nagios-plugins-standard{a} qstat{a} ruby{a} 
+  ruby1.9.1{a} samba-common{a} samba-common-bin{a} smbclient{a} snmp{a} 

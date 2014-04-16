@@ -92,3 +92,51 @@ haestrom :: /var/log/apache2 » a2enmod proxy_http                           1 �
 Considering dependency proxy for proxy_http:
 Module proxy already enabled
 Enabling module proxy_http.
+
+haestrom :: ~ » aptitude -t testing install nagios3
+The following NEW packages will be installed:
+  dbus{a} fontconfig-config{a} fonts-dejavu-core{a} fping{a} 
+  javascript-common{a} libapache2-mod-php5{a} libarchive-extract-perl{a} 
+  libasn1-8-heimdal{a} libaudit-common{a} libaudit1{a} libavahi-client3{a} 
+  libavahi-common-data{a} libavahi-common3{a} libcap-ng0{a} libcap2-bin{a} 
+  libcups2{a} libdbi1{a} libdbus-1-3{a} libffi6{a} libfontconfig1{a} 
+  libgd3{a} libgnutls28{a} libgssapi3-heimdal{a} libhcrypto4-heimdal{a} 
+  libheimbase1-heimdal{a} libheimntlm0-heimdal{a} libhogweed2{a} 
+  libhx509-5-heimdal{a} libjbig0{a} libjpeg8{a} libjs-jquery{a} 
+  libjson-c2{a} libkrb5-26-heimdal{a} libldb1{a} 
+  liblog-message-simple-perl{a} libmodule-pluggable-perl{a} 
+  libmysqlclient18{a} libnet-snmp-perl{a} libnettle4{a} libntdb1{a} 
+  libonig2{a} libpam-cap{a} libperl4-corelibs-perl{a} libperl5.18{a} 
+  libpng12-0{a} libpod-latex-perl{a} libpq5{a} libpython-stdlib{a} 
+  libpython2.7{a} libpython2.7-minimal{a} libpython2.7-stdlib{a} 
+  libqdbm14{a} libradiusclient-ng2{a} libroken18-heimdal{a} libsensors4{a} 
+  libsmbclient{a} libsnmp-base{a} libsnmp30{a} libsystemd-journal0{a} 
+  libsystemd-login0{a} libtalloc2{a} libtasn1-6{a} libtdb1{a} 
+  libterm-ui-perl{a} libtevent0{a} libtext-soundex-perl{a} libtiff5{a} 
+  libvpx1{a} libwbclient0{a} libwind0-heimdal{a} libxpm4{a} mysql-common{a} 
+  nagios-images{a} nagios-plugins{a} nagios-plugins-basic{a} 
+  nagios-plugins-common{a} nagios-plugins-standard{a} nagios3 
+  nagios3-cgi{a} nagios3-common{a} nagios3-core{a} php5-cli{a} 
+  php5-common{a} php5-json{a} php5-readline{a} python-crypto{a} 
+  python-ldb{a} python-ntdb{a} python-samba{a} python-talloc{a} 
+  python-tdb{a} qstat{a} samba-common{a} samba-common-bin{a} samba-libs{a} 
+  smbclient{a} snmp{a} 
+The following packages will be upgraded:
+  libalgorithm-diff-xs-perl libedit2 libfile-fcntllock-perl libgcrypt11 
+  liblocale-gettext-perl libp11-kit0 libsocket6-perl libtext-charwidth-perl 
+  libtext-iconv-perl libuuid-perl libxml2 perl perl-base perl-modules 
+  python python-minimal python2.7 python2.7-minimal 
+
+haestrom :: ~ » a2dismod php5                                               1 ↵
+Module php5 disabled.
+
+haestrom :: ~ » aptitude -t testing install php5-fpm                      130 ↵
+The following NEW packages will be installed:
+  init-system-helpers{a} libsystemd-daemon0{a} php5-fpm 
+
+haestrom :: /etc/apache2/mods-enabled » aptitude -t testing install libapache2-mod-fcgid
+The following NEW packages will be installed:
+  libapache2-mod-fcgid 
+
+haestrom :: /etc/apache2/sites-available » a2enmod proxy_fcgi 
+Enabling module proxy_fcgi.
