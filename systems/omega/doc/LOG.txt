@@ -134,3 +134,17 @@ The following packages will be REMOVED:
 omega :: /etc/php5 » apt-get autoremove             
 The following packages will be REMOVED:
   libonig2 libqdbm14 php5-common
+
+2014-04-16 argure
+-----------------
+
+omega :: ~ » aptitude remove --purge nginx
+The following packages will be REMOVED:  
+  libgd2-noxpm{pu} libjpeg8{pu} libxslt1.1{pu} nginx nginx-common{pu} 
+  nginx-full{pu}
+
+omega :: ~ » aptitude -t testing install apache2
+The following NEW packages will be installed:
+  apache2 apache2-bin{a} apache2-data{a} libapr1{a} libaprutil1{a} 
+  libaprutil1-dbd-sqlite3{a} libaprutil1-ldap{a} libdb5.3{a} liblua5.1-0{a} 
+  ssl-cert{a}
