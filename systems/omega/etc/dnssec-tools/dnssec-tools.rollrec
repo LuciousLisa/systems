@@ -1,0 +1,19 @@
+roll	"piratenpartij.nl"
+	zonename	"piratenpartij.nl"
+	zonefile	"/etc/bind/zones/piratenpartij.nl/piratenpartij.nl.signed"
+	keyrec		"/etc/bind/zones/piratenpartij.nl/piratenpartij.nl.krf"
+	administrator	"dnsmaster@piratenpartij.nl"
+	kskphase	"0"
+	zskphase	"0"
+	ksk_rolldate	"Wed Apr 16 11:56:02 2014"
+	ksk_rollsecs	"1397642162"
+	zsk_rolldate	"Wed Apr 16 11:56:02 2014"
+	zsk_rollsecs	"1397642162"
+	maxttl		"0"
+	display		"1"
+	phasestart	"new"
+	# optional records for RFC5011 rolling:
+	istrustanchor	"no"
+	holddowntime	"60D"
+
+
