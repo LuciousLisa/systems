@@ -1,7 +1,7 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster@piratenpartij.nl. 2014041503 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041511 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -80,8 +80,6 @@ civivpn			IN	A	82.94.160.210
 dagvandedownload	IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 denhaag			IN	A	212.117.168.186
-dnstunnel		IN	A	85.214.54.215
-			IN	NS	internetvrijheid
 donaties		IN	CNAME	doneer
 doneer			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
@@ -100,7 +98,6 @@ groningen		IN	CNAME	kanon
 hoekschewaard		IN	A	82.94.160.196
 			IN	AAAA	2001:888:2000:73:1::196
 imap			IN	CNAME	mail
-internetvrijheid	IN	A	85.214.54.215
 ipmi.anker		IN	A	82.94.252.83
 irc			IN	CNAME	nl.pirateirc.net.
 kajuit			IN	A	82.94.252.85
