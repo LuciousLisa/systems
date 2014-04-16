@@ -1,0 +1,17 @@
+citadel
+=======
+
+2014-04-16 argure
+-----------------
+
+root@citadel:~# aptitude install git git-core lsof zsh
+The following NEW packages will be installed:
+  git git-core git-man{a} libcurl3-gnutls{a} liberror-perl{a} librtmp0{a} 
+  libssh2-1{a} rsync{a} zsh
+
+citadel :: ~ » aptitude install fail2ban shorewall shorewall6
+The following NEW packages will be installed:
+  fail2ban gamin{a} libffi5{a} libgamin0{a} libglib2.0-0{a} 
+  libglib2.0-data{a} libio-socket-inet6-perl{a} libsocket6-perl{a} 
+  python-central{a} python-gamin{a} shared-mime-info{a} shorewall 
+  shorewall-core{a} shorewall6 
