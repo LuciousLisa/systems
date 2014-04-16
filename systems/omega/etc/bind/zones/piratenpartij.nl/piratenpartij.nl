@@ -1,7 +1,7 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041511 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041606 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -19,11 +19,9 @@ $TTL		7200
 
 
 
-;;citadel			IN	A	0.0.0.0
-;;			IN	AAAA	::
-;;			IN	LOC	52 19 59.479 E 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
-;;			IN	SSHFP	3 1
-;;			IN	SSHFP	3 2
+citadel			IN	A	82.94.175.173
+			IN	AAAA	2001:888:2000:73:1::173
+			IN	LOC	52 19 59.479 N 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
 
 
 
@@ -38,11 +36,9 @@ nagios			IN	CNAME	haestrom
 
 
 
-;;illium			IN	A	0.0.0.0
-;;			IN	AAAA	::
-;;			IN	LOC	52 19 59.479 E 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
-;;			IN	SSHFP	3 1
-;;			IN 	SSHFP 	3 2
+illium			IN	A	82.94.175.171
+			IN	AAAA	2001:888:2000:73:1::171
+			IN	LOC	52 19 59.479 N 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
 
 
 
