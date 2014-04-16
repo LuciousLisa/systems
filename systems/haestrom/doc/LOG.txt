@@ -57,3 +57,38 @@ haestrom :: /opt » adduser --ingroup=znc --system --home=/var/lib/znc znc
 haestrom :: ~ » aptitude install bind9                                   127 ↵
 The following NEW packages will be installed:
   bind9 bind9utils{a}
+
+2014-04-16 argure
+-----------------
+
+haestrom :: ~ » aptitude install apache2                                  127 ↵
+The following NEW packages will be installed:
+  apache2 apache2-mpm-worker{a} apache2-utils{a} apache2.2-bin{a} 
+  apache2.2-common{a} libapr1{a} libaprutil1{a} libaprutil1-dbd-sqlite3{a} 
+  libaprutil1-ldap{a} ssl-cert{a} 
+
+haestrom :: /etc/apt » aptitude -t testing install apache2
+The following NEW packages will be installed:
+  apache2-bin{a} apache2-data{a} libdb5.3{a} liblua5.1-0{a} 
+The following packages will be REMOVED:
+  apache2-mpm-worker{u} apache2.2-bin{u} apache2.2-common{u} 
+The following packages will be upgraded:
+  apache2 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap 
+  libc-dev-bin libc6 libc6-dev locales 
+
+haestrom :: /etc/apache2 » a2enmod ssl
+Enabling module socache_shmcb.
+Enabling module ssl.
+
+haestrom :: /etc/apache2 » a2enmod headers
+Enabling module headers.
+
+haestrom :: /etc/apache2/sites-available » a2dissite 000-default.conf 
+
+haestrom :: /etc/ssl/certs » a2enmod proxy                                  1 ↵
+Enabling module proxy.
+
+haestrom :: /var/log/apache2 » a2enmod proxy_http                           1 ↵
+Considering dependency proxy for proxy_http:
+Module proxy already enabled
+Enabling module proxy_http.

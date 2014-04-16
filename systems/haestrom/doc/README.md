@@ -4,9 +4,9 @@ haestrom
 Services
 --------
 
+ * apache2 + znc (IRC bouncer)
  * bind9 (slave nameserver)
  * nagios (monitoring)
- * znc (IRC bounced)
 
 Specificaties
 -------------

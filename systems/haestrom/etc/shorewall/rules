@@ -29,6 +29,10 @@ ACCEPT		net		fw		tcp	22
 ACCEPT		net		fw		tcp	53
 ACCEPT		net		fw	 	udp	53
 
+# HTTP(S)
+ACCEPT		net		fw		tcp	80
+ACCEPT		net		fw		tcp	443
+
 # Ident
 ACCEPT		net		fw		tcp	113
 
