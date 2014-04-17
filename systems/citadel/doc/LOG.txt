@@ -15,3 +15,7 @@ The following NEW packages will be installed:
   libglib2.0-data{a} libio-socket-inet6-perl{a} libsocket6-perl{a} 
   python-central{a} python-gamin{a} shared-mime-info{a} shorewall 
   shorewall-core{a} shorewall6 
+
+citadel :: ~ » aptitude install bind9
+The following NEW packages will be installed:
+  bind9 bind9utils{a}

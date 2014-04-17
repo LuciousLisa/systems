@@ -1,5 +1,8 @@
 zone "piratenpartij.nl." IN {
 	type	master;
 	file	"/etc/bind/zones/piratenpartij.nl/piratenpartij.nl.signed";
-	allow-transfer { 185.27.175.102; };
+	allow-transfer {
+		82.94.175.173;
+		185.27.175.102;
+	};
 };

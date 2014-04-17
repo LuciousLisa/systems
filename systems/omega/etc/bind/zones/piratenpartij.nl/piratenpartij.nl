@@ -1,7 +1,7 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041606 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041609 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -39,6 +39,9 @@ nagios			IN	CNAME	haestrom
 illium			IN	A	82.94.175.171
 			IN	AAAA	2001:888:2000:73:1::171
 			IN	LOC	52 19 59.479 N 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
+
+testing			IN	CNAME	illium
+phpmyadmin		IN	CNAME	illium
 
 
 
@@ -132,8 +135,6 @@ otrs			IN	A	82.94.160.213
 owncloud		IN	CNAME	voorsteven
 pad			IN	A	82.94.160.198
 			IN	AAAA	2001:888:2000:73:1::198
-phpmyadmin		IN	A	82.94.160.213
-			IN	AAAA	2001:888:2000:73:1::213
 prefectionist		IN	A	87.250.154.8
 			IN	AAAA	2a02:f18:1:9a01:87:250:154:8
 programma		IN	CNAME	ppeu2014.nosysoft.net.
@@ -149,8 +150,6 @@ share			IN	CNAME	voorsteven
 smtp			IN	CNAME	mail
 stream-bak		IN	A	77.72.146.197
 			IN	AAAA	2a01:7c8:aaae:218::1
-testing			IN	A	92.63.168.76
-			IN	AAAA	2a00:f10:121:100:44a:eff:fe00:110
 voorsteven		IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 vrijwilligers		IN	A	82.94.160.213

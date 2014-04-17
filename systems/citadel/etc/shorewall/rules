@@ -22,6 +22,13 @@ ACCEPT		fw		net		icmp
 # SSH
 ACCEPT		net		fw		tcp	22
 
+# DNS
+ACCEPT		net		fw		tcp	53
+ACCEPT		net		fw		udp	53
+
+# MySQL
+ACCEPT		$ILLIUM		fw		tcp 	3306
+
 # Nagios
 ACCEPT		$HAESTROM	fw		tcp	5666
 ACCEPT		$HAESTROM	fw		udp	5666

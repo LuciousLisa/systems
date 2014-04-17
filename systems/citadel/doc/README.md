@@ -4,6 +4,7 @@ citadel
 Services
 --------
 
+ * bind9 (slave nameserver)
  * mysql-server (databaseserver)
  * postfix (mailserver)
  * slapd (LDAP server)
