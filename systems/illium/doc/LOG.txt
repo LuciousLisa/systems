@@ -109,3 +109,11 @@ The following NEW packages will be installed:
   openjdk-6-jre-headless{a} openjdk-6-jre-lib{a}
 
 
+illium :: ~ » a2ensite ci.piratenpartij.nl.conf 
+Enabling site ci.piratenpartij.nl.
+
+illium :: ~ » a2enmod proxy_ajp 
+Considering dependency proxy for proxy_ajp:
+Module proxy already enabled
+Enabling module proxy_ajp.
+
