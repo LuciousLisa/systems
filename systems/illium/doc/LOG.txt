@@ -127,3 +127,8 @@ illium :: ~ » a2enmod proxy_ajp
 Considering dependency proxy for proxy_ajp:
 Module proxy already enabled
 Enabling module proxy_ajp.
+
+illium :: ~ » aptitude install sudo
+The following NEW packages will be installed:
+  sudo 
+
