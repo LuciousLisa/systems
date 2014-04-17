@@ -119,3 +119,11 @@ The following NEW packages will be installed:
   libavahi-common-data{a} libavahi-common3{a} libcups2{a} libdbus-1-3{a} 
   libnspr4{a} libnss3{a} libnss3-1d{a} libpcsclite1{a} libsystemd-login0{a} 
   openjdk-6-jre-headless{a} openjdk-6-jre-lib{a}
+
+illium :: ~ » a2ensite ci.piratenpartij.nl.conf 
+Enabling site ci.piratenpartij.nl.
+
+illium :: ~ » a2enmod proxy_ajp 
+Considering dependency proxy for proxy_ajp:
+Module proxy already enabled
+Enabling module proxy_ajp.
