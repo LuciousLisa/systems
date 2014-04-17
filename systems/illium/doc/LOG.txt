@@ -132,3 +132,24 @@ illium :: ~ » aptitude install sudo
 The following NEW packages will be installed:
   sudo 
 
+2014-04-18 argure
+-----------------
+
+illium :: /usr/local/src » sudo aptitude install unzip                    127 ↵
+The following NEW packages will be installed:
+  unzip 
+
+illium :: local/src/supplemental » aptitude install openjdk-7-jre-headless 
+The following NEW packages will be installed:
+  icedtea-7-jre-jamvm{a} liblcms2-2{a} openjdk-7-jre-headless 
+  openjdk-7-jre-lib{a} 
+
+illium :: local/src/servlet » aptitude install tomcat6
+The following NEW packages will be installed:
+  authbind{a} libcommons-dbcp-java{a} libcommons-pool-java{a} 
+  libecj-java{a} libgeronimo-jta-1.1-spec-java{a} libservlet2.5-java{a} 
+  libtomcat6-java{a} tomcat6 tomcat6-common{a} 
+
+illium :: lib/tomcat6/webapps » sudo aptitude install tomcat6-admin
+The following NEW packages will be installed:
+  tomcat6-admin 
