@@ -105,3 +105,17 @@ The following NEW packages will be installed:
 illium :: /etc/apache2/sites-available » aptitude -t testing install php5
 The following NEW packages will be installed:
   php5 
+
+2014-04-17 techwolf12
+-----------------
+
+illium :: ~ » wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add -
+OK
+
+illium :: ~ » aptitude install jenkins 
+The following NEW packages will be installed:
+  ca-certificates-java{a} daemon{a} dbus{a} icedtea-6-jre-cacao{a} 
+  icedtea-6-jre-jamvm{a} java-common{a} jenkins libavahi-client3{a} 
+  libavahi-common-data{a} libavahi-common3{a} libcups2{a} libdbus-1-3{a} 
+  libnspr4{a} libnss3{a} libnss3-1d{a} libpcsclite1{a} libsystemd-login0{a} 
+  openjdk-6-jre-headless{a} openjdk-6-jre-lib{a}
