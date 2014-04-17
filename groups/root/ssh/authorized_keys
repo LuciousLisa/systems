@@ -6,3 +6,6 @@ ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBADN1YWn
 
 # techwolf12
 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEWuaBoTDXsvJm6Vg/w0/DYypk+EpCVW/o1q8G7u/BwIK3pCrNdelz4eL7OD4MfV3wEOCFbbjVjNHv8GOXsp75c= techwolf12@techwolf12-optiplex
+
+# Jenkins CI
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFOyuPy0C5TZ/0R2SA8+ocnubUsSuldt7wtLlEc7WXPRJCxLMzl/2xd/nVfJxGatj9ayMuqkhL9nKqMcy4Qdb1I= Jenkins CI
