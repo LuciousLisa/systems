@@ -26,4 +26,4 @@ root	ALL=(ALL:ALL) ALL
 
 #includedir /etc/sudoers.d
 
-jenkins ALL=(www-data) NOPASSWD: /bin/bash
+jenkins ALL=(www-data) NOPASSWD: ALL
