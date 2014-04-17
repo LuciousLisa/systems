@@ -41,6 +41,7 @@ illium			IN	A	82.94.175.171
 			IN	LOC	52 19 59.479 N 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
 
 testing			IN	CNAME	illium
+phpldapadmin		IN	CNAME	illium
 phpmyadmin		IN	CNAME	illium
 
 

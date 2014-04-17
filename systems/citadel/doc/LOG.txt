@@ -19,3 +19,11 @@ The following NEW packages will be installed:
 citadel :: ~ » aptitude install bind9
 The following NEW packages will be installed:
   bind9 bind9utils{a}
+
+citadel :: ~ » aptitude install slapd
+The following NEW packages will be installed:
+  libltdl7{a} libodbc1{a} libperl5.14{a} libslp1{a} slapd 
+
+citadel :: /etc/ldap » aptitude install ldap-utils
+The following NEW packages will be installed:
+  ldap-utils 

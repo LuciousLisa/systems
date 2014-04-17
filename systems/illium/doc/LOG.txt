@@ -93,3 +93,15 @@ illium :: /srv/phpmyadmin.piratenpartij.nl » aptitude install mysql-client
 The following NEW packages will be installed:
   libdbd-mysql-perl{a} libdbi-perl{a} libnet-daemon-perl{a} 
   libplrpc-perl{a} mysql-client mysql-client-5.5{a} 
+
+illium :: log/apache2/piratenpartij.nl » aptitude install -t testing php5-ldap
+The following NEW packages will be installed:
+  php5-ldap 
+
+illium :: log/apache2/piratenpartij.nl » aptitude install ldapscripts     130 ↵
+The following NEW packages will be installed:
+  ldap-utils{a} ldapscripts pwgen{a} sharutils{a} 
+
+illium :: /etc/apache2/sites-available » aptitude -t testing install php5
+The following NEW packages will be installed:
+  php5 
