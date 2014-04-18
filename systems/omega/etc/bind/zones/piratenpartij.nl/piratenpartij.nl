@@ -44,6 +44,7 @@ ci			IN	CNAME	illium
 testing			IN	CNAME	illium
 phpldapadmin		IN	CNAME	illium
 phpmyadmin		IN	CNAME	illium
+pwm			IN	CNAME	illium
 
 
 
@@ -141,7 +142,6 @@ prefectionist		IN	A	87.250.154.8
 			IN	AAAA	2a02:f18:1:9a01:87:250:154:8
 programma		IN	CNAME	ppeu2014.nosysoft.net.
 projectpm		IN	A	178.18.132.237
-pwm			IN	CNAME	anker
 redmine			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 rotterdam		IN	A	212.117.168.186

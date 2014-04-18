@@ -153,3 +153,6 @@ The following NEW packages will be installed:
 illium :: lib/tomcat6/webapps » sudo aptitude install tomcat6-admin
 The following NEW packages will be installed:
   tomcat6-admin 
+
+illium :: /srv/piratenpartij.nl/testing ‹55716a0› » a2enmod rewrite
+Enabling module rewrite.
