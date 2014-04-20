@@ -1,0 +1,2 @@
+*/5 * * * * www-data wget --no-check-certificate -q -O - https://piratenpartij.nl/wp-cron.php?doing_wp_cron >/dev/null 2>&1
+*/5 * * * * www-data wget --no-check-certificate -q -O - https://testing.piratenpartij.nl/wp-cron.php?doing_wp_cron >/dev/null 2>&1
