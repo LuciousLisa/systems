@@ -19,10 +19,15 @@
 		SSLVerifyClient none
 
 		ProxyVia on
-		ProxyPass / http://127.0.0.1:8080/
-		ProxyPassReverse / http://127.0.0.1:8080/
+		ProxyPass /pwm http://127.0.0.1:8080/pwm
+		ProxyPass /pwm/admin !
+		ProxyPass /pwm/config !
+		ProxyPassReverse /pwm http://127.0.0.1:8080/pwm
 		ProxyPreserveHost on
 		ProxyRequests off
+
+		RewriteEngine on
+		RewriteRule ^/$ /pwm/ [R]
 
 		<Proxy *>
 			Options FollowSymLinks MultiViews

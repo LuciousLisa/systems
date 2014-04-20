@@ -26,24 +26,24 @@ JENKINS_HOME=/var/lib/jenkins
 # to host jenkins.
 RUN_STANDALONE=true
 
-# log location.  this may be a syslog facility.priority
+# log location. this may be a syslog facility.priority
 JENKINS_LOG=/var/log/jenkins/$NAME.log
 #HUDSON_LOG=daemon.info
 
 # OS LIMITS SETUP
-#   comment this out to observe /etc/security/limits.conf
-#   this is on by default because http://github.com/jenkinsci/jenkins/commit/2fb288474e980d0e7ff9c4a3b768874835a3e92e
-#   reported that Ubuntu's PAM configuration doesn't include pam_limits.so, and as a result the # of file
-#   descriptors are forced to 1024 regardless of /etc/security/limits.conf
+# comment this out to observe /etc/security/limits.conf
+# this is on by default because http://github.com/jenkinsci/jenkins/commit/2fb288474e980d0e7ff9c4a3b768874835a3e92e
+# reported that Ubuntu's PAM configuration doesn't include pam_limits.so, and as a result the # of file
+# descriptors are forced to 1024 regardless of /etc/security/limits.conf
 MAXOPENFILES=8192
 
 # port for HTTP connector (default 8080; disable with -1)
-HTTP_PORT=8081
+HTTP_PORT=-1
 
 # port for AJP connector (disabled by default)
-AJP_PORT=-1
+AJP_PORT=8102
 
-# servlet context, important if you want to use apache proxying  
+# servlet context, important if you want to use apache proxying
 PREFIX=/jenkins
 
 # arguments to pass to jenkins.
