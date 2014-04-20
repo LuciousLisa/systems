@@ -4,7 +4,10 @@ illium
 Services
 --------
 
- * apache2 (webserver)
+ * apache2 + php5-fpm (webserver)
+ * etherpad-lite (pad daemon)
+ * jenkins (continuous integration)
+ * tomcat + pwm (PWM daemon)
 
 Specificaties
 -------------

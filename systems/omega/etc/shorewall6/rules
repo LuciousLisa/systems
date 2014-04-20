@@ -34,3 +34,7 @@ ACCEPT		net		fw		tcp	6697
 # Nagios
 ACCEPT		$HAESTROM	fw		tcp	5666
 ACCEPT		$HAESTROM	fw		udp	5666
+
+# Mumble
+ACCEPT		net		fw		tcp	64738
+ACCEPT		net		fw		udp	64738

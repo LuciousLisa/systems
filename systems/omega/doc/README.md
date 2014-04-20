@@ -5,7 +5,9 @@ Services
 --------
 
  * apache2 + PirateProxy (proxyserver)
+ * bind9 (primaire nameserver)
  * charybdis (IRC server)
+ * mumble-server (Murmur)
 
 Specificaties
 -------------

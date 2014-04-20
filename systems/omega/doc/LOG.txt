@@ -176,3 +176,16 @@ The following NEW packages will be installed:
   nagios-plugins-basic{a} nagios-plugins-common{a} 
   nagios-plugins-contrib{a} nagios-plugins-standard{a} qstat{a} ruby{a} 
   ruby1.9.1{a} samba-common{a} samba-common-bin{a} smbclient{a} snmp{a} 
+
+2014-04-20 argure
+-----------------
+
+omega :: bind/zones/piratenpartij.nl » aptitude install mumble-server
+The following NEW packages will be installed:
+  avahi-daemon{a} dbus{a} libavahi-client3{a} libavahi-common-data{a} 
+  libavahi-common3{a} libavahi-compat-libdnssd1{a} libavahi-core7{a} 
+  libdaemon0{a} libdbus-1-3{a} libiceutil34{a} libnss-mdns{a} 
+  libprotobuf7{a} libqt4-dbus{a} libqt4-network{a} libqt4-sql{a} 
+  libqt4-sql-mysql{a} libqt4-sql-sqlite{a} libqt4-xml{a} libqtcore4{a} 
+  libqtdbus4{a} libsystemd-login0{a} libzeroc-ice34{a} mumble-server 
+  qdbus{a} 
