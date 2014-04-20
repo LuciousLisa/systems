@@ -42,6 +42,7 @@ illium			IN	A	82.94.175.171
 
 ci			IN	CNAME	illium
 testing			IN	CNAME	illium
+pad			IN	CNAME	illium
 phpldapadmin		IN	CNAME	illium
 phpmyadmin		IN	CNAME	illium
 pwm			IN	CNAME	illium
@@ -136,8 +137,6 @@ openfire		IN	A	82.94.160.198
 otrs			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 owncloud		IN	CNAME	voorsteven
-pad			IN	A	82.94.160.198
-			IN	AAAA	2001:888:2000:73:1::198
 prefectionist		IN	A	87.250.154.8
 			IN	AAAA	2a02:f18:1:9a01:87:250:154:8
 programma		IN	CNAME	ppeu2014.nosysoft.net.

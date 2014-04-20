@@ -156,3 +156,54 @@ The following NEW packages will be installed:
 
 illium :: /srv/piratenpartij.nl/testing ‹55716a0› » a2enmod rewrite
 Enabling module rewrite.
+
+illium :: local/share/etherpad-lite ‹develop› » aptitude install curl \   130 ↵
+> pkg-config
+The following NEW packages will be installed:
+  curl libcurl3{a} pkg-config 
+
+illium :: local/share/etherpad-lite ‹develop› » aptitude install -t testing \
+> build-essential
+The following NEW packages will be installed:
+  binutils{a} build-essential cpp{a} cpp-4.8{a} dpkg-dev{a} fakeroot{a} 
+  g++{a} g++-4.8{a} gcc{a} gcc-4.8{a} gcc-4.8-base{a} 
+  libalgorithm-diff-perl{a} libalgorithm-diff-xs-perl{a} 
+  libalgorithm-merge-perl{a} libarchive-extract-perl{a} libasan0{a} 
+  libatomic1{a} libc-dev-bin{a} libc6-dev{a} libcloog-isl4{a} 
+  libdpkg-perl{a} libfile-fcntllock-perl{a} libgcc-4.8-dev{a} libgmp10{a} 
+  libgomp1{a} libisl10{a} libitm1{a} liblog-message-simple-perl{a} 
+  libmodule-pluggable-perl{a} libmpc3{a} libmpfr4{a} 
+  libperl4-corelibs-perl{a} libpod-latex-perl{a} libquadmath0{a} 
+  libstdc++-4.8-dev{a} libterm-ui-perl{a} libtext-soundex-perl{a} 
+  libtimedate-perl{a} libtsan0{a} linux-libc-dev{a} make{a} manpages-dev{a} 
+The following packages will be upgraded:
+  gcc-4.7-base libdbd-mysql-perl libdbi-perl libgcc1 liblocale-gettext-perl 
+  libsocket6-perl libstdc++6 libtext-charwidth-perl libtext-iconv-perl 
+  libuuid-perl perl perl-base perl-modules 
+
+illium :: /etc/apt/sources.list.d » aptitude -t wheezy-backports install \  1 ↵
+> nodejs nodejs-legacy
+The following NEW packages will be installed:
+  libc-ares2{a} libv8-3.14.5{a} nodejs nodejs-legacy 
+
+illium :: share/etherpad-lite/bin ‹c6d13a9› » aptitude -t testing install npm
+The following NEW packages will be installed:
+  gyp{a} javascript-common{a} libc-ares-dev{a} libffi6{a} 
+  libjs-node-uuid{a} libpython-stdlib{a} libpython2.7-minimal{a} 
+  libpython2.7-stdlib{a} libssl-dev{a} libssl-doc{a} libv8-3.14-dev{a} 
+  node-abbrev{a} node-ansi{a} node-ansi-color-table{a} node-archy{a} 
+  node-async{a} node-block-stream{a} node-combined-stream{a} 
+  node-cookie-jar{a} node-delayed-stream{a} node-forever-agent{a} 
+  node-form-data{a} node-fstream{a} node-fstream-ignore{a} 
+  node-github-url-from-git{a} node-glob{a} node-graceful-fs{a} node-gyp{a} 
+  node-inherits{a} node-ini{a} node-json-stringify-safe{a} node-lockfile{a} 
+  node-lru-cache{a} node-mime{a} node-minimatch{a} node-mkdirp{a} 
+  node-mute-stream{a} node-node-uuid{a} node-nopt{a} 
+  node-normalize-package-data{a} node-npmlog{a} node-once{a} node-osenv{a} 
+  node-qs{a} node-read{a} node-read-package-json{a} node-request{a} 
+  node-retry{a} node-rimraf{a} node-semver{a} node-sha{a} node-sigmund{a} 
+  node-slide{a} node-tar{a} node-tunnel-agent{a} node-which{a} 
+  nodejs-dev{a} npm python-pkg-resources{a} zlib1g-dev{a} 
+The following packages will be upgraded:
+  libc-ares2 libssl1.0.0 libv8-3.14.5 nodejs python python-minimal 
+  python2.7 python2.7-minimal zlib1g 
