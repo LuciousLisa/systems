@@ -207,3 +207,49 @@ The following NEW packages will be installed:
 The following packages will be upgraded:
   libc-ares2 libssl1.0.0 libv8-3.14.5 nodejs python python-minimal 
   python2.7 python2.7-minimal zlib1g 
+
+illium :: www/FUDforum/scripts » aptitude install -t testing php5-cli     130 ↵
+The following NEW packages will be installed:
+  php5-cli php5-readline{a} 
+
+illium :: www/FUDforum/scripts » aptitude install php5-imap -t testing    130 ↵
+The following NEW packages will be installed:
+  libc-client2007e{a} mlock{a} php5-imap 
+
+illium :: ~ » aptitude install php5-curl -t testing                       130 ↵
+The following NEW packages will be installed:
+  php5-curl 
+
+illium :: ~ » aptitude install php5-intl -t testing                       130 ↵
+The following NEW packages will be installed:
+  libicu52{a} php5-intl 
+
+illium :: ~ » aptitude -t testing install php-apc                         130 ↵
+The following NEW packages will be installed:
+  php-apc 
+
+illium :: ~ » aptitude -t testing install php5-imagick
+The following NEW packages will be installed:
+  imagemagick-common{a} liblqr-1-0{a} libmagickcore5{a} libmagickwand5{a} 
+  libxt6{a} php5-imagick 
+
+The following NEW packages will be installed:
+  apache2-dev autopoint{a} comerr-dev{a} debhelper{a} gettext{a} 
+  intltool-debian{a} krb5-multidev{a} libapr1-dev{a} libaprutil1-dev{a} 
+  libasprintf-dev{a} libcroco3{a} libexpat1-dev{a} libgettextpo-dev{a} 
+  libgettextpo0{a} libgssrpc4{a} libkadm5clnt-mit9{a} libkadm5srv-mit9{a} 
+  libkdb5-7{a} libldap2-dev{a} libmail-sendmail-perl{a} 
+  libmysqlclient-dev{a} libpcre3-dev{a} libpcrecpp0{a} libpq-dev{a} 
+  libpq5{a} libsctp-dev{a} libsctp1{a} libsqlite3-dev{a} 
+  libsys-hostname-long-perl{a} libunistring0{a} lksctp-tools{a} 
+  po-debconf{a} uuid-dev{a} 
+The following packages will be upgraded:
+  ldap-utils libasprintf0c2 libcomerr2 libexpat1 libgssapi-krb5-2 
+  libk5crypto3 libkrb5-3 libkrb5support0 libldap-2.4-2 libpcre3 
+  libsqlite3-0 libuuid1 
+The following packages are RECOMMENDED but will NOT be installed:
+  uuid-runtime 
+
+illium :: ~ » aptitude install proftpd-basic proftpd-mod-ldap
+The following NEW packages will be installed:
+  libfile-copy-recursive-perl{a} proftpd-basic proftpd-mod-ldap proftpd-mod-vroot{a} update-inetd{a} 

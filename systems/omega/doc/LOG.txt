@@ -189,3 +189,16 @@ The following NEW packages will be installed:
   libqt4-sql-mysql{a} libqt4-sql-sqlite{a} libqt4-xml{a} libqtcore4{a} 
   libqtdbus4{a} libsystemd-login0{a} libzeroc-ice34{a} mumble-server 
   qdbus{a} 
+
+illium :: /opt/seafile-server » aptitude install python-simplejson          1 ↵
+The following NEW packages will be installed:
+  libjs-jquery{a} python-simplejson 
+
+illium :: /opt/seafile-server » aptitude install python-imaging             1 ↵
+The following NEW packages will be installed:
+  liblcms1{a} python-imaging 
+
+illium :: /opt/seafile-server » aptitude install python-mysqldb             1 ↵
+The following NEW packages will be installed:
+  python-mysqldb 
+

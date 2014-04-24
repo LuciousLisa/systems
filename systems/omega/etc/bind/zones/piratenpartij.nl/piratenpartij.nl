@@ -1,12 +1,13 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014041614 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042313 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
-			IN	A	82.94.252.84
-			IN	AAAA	2001:888:2000:73:1::84
+			IN	NS	citadel
+			IN	A	82.94.175.171
+			IN	AAAA	2001:888:2000:73:1::171
 			IN	TXT	"v=spf1 +mx +ptr -all"
 			IN	SPF	"v=spf1 +mx +ptr -all"
 			IN	MX	10 mail
@@ -42,11 +43,13 @@ illium			IN	A	82.94.175.171
 			IN	LOC	52 19 59.479 N 4 55 27.170 E 0.00m 0.00m 0.00m 0.00m
 
 ci			IN	CNAME	illium
+forum			IN	CNAME	illium
 testing			IN	CNAME	illium
 pad			IN	CNAME	illium
 phpldapadmin		IN	CNAME	illium
 phpmyadmin		IN	CNAME	illium
 pwm			IN	CNAME	illium
+www			IN	CNAME	illium
 
 
 
@@ -56,6 +59,7 @@ omega			IN	A	149.210.173.162
 			IN 	SSHFP	3 1 71f45790aee11afdb818f73c0038cbbdd1128be9
 			IN	SSHFP	3 2 ca51c2ad1c025aac44305afd884abd203cfdf2fe5847added678d528aeaab27f
 
+mumble			IN	CNAME	omega
 proxy			IN	CNAME	omega
 *.proxy			IN	CNAME	omega
 tpb			IN	CNAME	omega
@@ -87,8 +91,6 @@ doneren			IN	CNAME	doneer
 dump			IN	CNAME	voorsteven
 erp			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
-forum			IN	A	82.94.160.213
-			IN	AAAA	2001:888:2000:73:1::213
 gallerij		IN	CNAME	voorsteven
 gallery			IN	CNAME	voorsteven
 geschut			IN	A	82.94.160.216
@@ -115,8 +117,6 @@ mail			IN	A	37.34.61.138
 			IN	AAAA	2a01:7c8:aaad:442::1
 mastvoet		IN	A	37.34.61.138
 			IN	AAAA	2a01:7c8:aaad:442::1
-mumble			IN	A	82.94.160.198
-			IN	AAAA	2001:888:2000:73:1::198
 otrs			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 owncloud		IN	CNAME	voorsteven
@@ -134,4 +134,3 @@ webmail			IN	CNAME	mail
 webshop			IN	A	82.94.252.86
 			IN	AAAA	2001:888:2000:73:1::86
 wiki			IN	CNAME	anker
-www			IN	CNAME	kanon
