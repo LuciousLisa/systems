@@ -253,3 +253,10 @@ The following packages are RECOMMENDED but will NOT be installed:
 illium :: ~ » aptitude install proftpd-basic proftpd-mod-ldap
 The following NEW packages will be installed:
   libfile-copy-recursive-perl{a} proftpd-basic proftpd-mod-ldap proftpd-mod-vroot{a} update-inetd{a} 
+
+2014-04-25 argure
+-----------------
+
+illium :: oud.piratenpartij.nl/sites/piratenpartij.nl ‹develop*› » aptitude install php5-memcache -t testing
+The following NEW packages will be installed:
+  php5-memcache 

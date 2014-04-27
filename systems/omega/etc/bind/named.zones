@@ -6,3 +6,12 @@ zone "piratenpartij.nl." IN {
 		185.27.175.102;
 	};
 };
+
+zone "zehebbenonsgehoord.nl." IN {
+	type	master;
+	file	"/etc/bind/zones/zehebbenonsgehoord.nl/zehebbenonsgehoord.nl.signed";
+	allow-transfer {
+		82.94.175.173;
+		185.27.175.102;
+	};
+};

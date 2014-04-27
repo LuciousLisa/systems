@@ -1,7 +1,7 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042313 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042315 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -44,10 +44,12 @@ illium			IN	A	82.94.175.171
 
 ci			IN	CNAME	illium
 forum			IN	CNAME	illium
+oud			IN	CNAME	illium
 testing			IN	CNAME	illium
 pad			IN	CNAME	illium
 phpldapadmin		IN	CNAME	illium
 phpmyadmin		IN	CNAME	illium
+programma		IN	CNAME	illium
 pwm			IN	CNAME	illium
 www			IN	CNAME	illium
 
@@ -120,7 +122,6 @@ mastvoet		IN	A	37.34.61.138
 otrs			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 owncloud		IN	CNAME	voorsteven
-programma		IN	CNAME	ppeu2014.nosysoft.net.
 scheepshoorn		IN	A	82.94.160.202
 			IN	AAAA	2001:888:2000:73:1::202
 share			IN	CNAME	voorsteven

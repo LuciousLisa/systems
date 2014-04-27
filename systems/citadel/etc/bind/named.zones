@@ -3,3 +3,9 @@ zone "piratenpartij.nl." IN {
 	file	"/var/cache/bind/piratenpartij.nl.zone.signed";
 	masters { 149.210.173.162; };
 };
+
+zone "zehebbenonsgehoord.nl." IN {
+	type 	slave;
+	file	"/var/cache/bind/zehebbenonsgehoord.nl.zone.signed";
+	masters { 149.210.173.162; };
+};
