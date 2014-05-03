@@ -1,7 +1,7 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042315 7200 3600 604800 3600
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042316 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -14,10 +14,8 @@ $TTL		7200
 
 
 
-;;amsterdam-nl		IN	A	149.210.173.165
-;;			IN	AAAA	2a01:7c8:aab4:592::2
-;;
-;;irc			IN	CNAME	amsterdam-nl
+amsterdam-nl		IN	A	149.210.173.165
+			IN	AAAA	2a01:7c8:aab4:592::2
 
 
 
@@ -69,13 +67,13 @@ tpb			IN	CNAME	omega
 
 
 denhaag			IN	A	212.117.168.186
+irc			IN	CNAME	nl.pirateirc.net.
 leiden			IN	A	212.117.168.186
 
 
 ;; oude servers
 admin			IN	CNAME	anker
 amsterdam		IN	A	82.94.160.214
-amsterdam-nl		IN	CNAME	geschut
 anker			IN	A	82.94.252.82
 			IN	AAAA	2001:888:2000:73:1::82 
 berghout		IN	A	82.94.160.215
@@ -101,7 +99,6 @@ groningen		IN	CNAME	kanon
 hoekschewaard		IN	A	82.94.160.196
 			IN	AAAA	2001:888:2000:73:1::196
 imap			IN	CNAME	mail
-irc			IN	CNAME	nl.pirateirc.net.
 kajuit			IN	A	82.94.252.85
 			IN	AAAA	2001:888:2000:73:1::85
 kanon			IN	A	82.94.252.84
