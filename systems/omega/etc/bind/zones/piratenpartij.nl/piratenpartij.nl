@@ -50,6 +50,7 @@ phpmyadmin		IN	CNAME	illium
 programma		IN	CNAME	illium
 pwm			IN	CNAME	illium
 www			IN	CNAME	illium
+zehebbenonsgehoord	IN	CNAME	illium
 
 
 
