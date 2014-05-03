@@ -1,3 +1,9 @@
+zone "nulpunt.nu." IN {
+	type	slave;
+	file 	"/var/cache/bind/nulpunt.nu.zone.signed";
+	masters { 149.210.173.162; };
+};
+
 zone "piratenpartij.nl." IN {
 	type	slave;
 	file	"/var/cache/bind/piratenpartij.nl.zone.signed";
