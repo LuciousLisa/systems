@@ -19,6 +19,9 @@ SECTION NEW
 ACCEPT		net		fw		icmp	8
 ACCEPT		fw		net		icmp
 
+# FTPS
+ACCEPT		net		fw		tcp	21
+
 # SSH
 ACCEPT		net		fw		tcp	22
 

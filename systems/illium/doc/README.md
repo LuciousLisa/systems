@@ -7,6 +7,7 @@ Services
  * apache2 + php5-fpm (webserver)
  * etherpad-lite (pad daemon)
  * jenkins (continuous integration)
+ * proftpd
  * tomcat + pwm (PWM daemon)
 
 Specificaties
