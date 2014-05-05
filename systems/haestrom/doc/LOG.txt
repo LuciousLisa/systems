@@ -140,3 +140,20 @@ The following NEW packages will be installed:
 
 haestrom :: /etc/apache2/sites-available » a2enmod proxy_fcgi 
 Enabling module proxy_fcgi.
+
+2014-05-04 argure
+-----------------
+
+haestrom :: ~ » aptitude -t testing install libdbi-perl                   130 ↵
+The following NEW packages will be installed:
+  libdbi-perl 
+
+haestrom :: ~ » aptitude -t testing install libdbd-mysql-perl             130 ↵
+The following NEW packages will be installed:
+  libdbd-mysql-perl 
+
+haestrom :: ~ » aptitude install automysqlbackup
+The following NEW packages will be installed:
+  automysqlbackup mysql-client{a} mysql-client-5.5{a} 
+The following packages will be upgraded:
+  mysql-common 

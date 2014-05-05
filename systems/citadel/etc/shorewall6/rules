@@ -22,6 +22,7 @@ ACCEPT		net		fw		tcp	53
 ACCEPT		net		fw		udp	53
 
 # MySQL
+ACCEPT		$HAESTROM	fw		tcp	3306
 ACCEPT		$ILLIUM		fw		tcp	3306
 
 # Nagios

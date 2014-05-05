@@ -31,6 +31,7 @@ ACCEPT		$ILLIUM		fw		tcp	389
 ACCEPT		$ILLIUM		fw		tcp	636
 
 # MySQL
+ACCEPT		$HAESTROM	fw		tcp	3306
 ACCEPT		$ILLIUM		fw		tcp 	3306
 
 # Nagios
