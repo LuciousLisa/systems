@@ -1,7 +1,11 @@
 $ORIGIN		piratenpartij.nl.
 $TTL		7200
 
-@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042318 7200 3600 604800 3600
+;;;;;;;;;;;;
+;; GLOBAL ;;
+;;;;;;;;;;;;
+
+@			IN	SOA	omega dnsmaster.piratenpartij.nl. 2014042319 7200 3600 604800 3600
 
 			IN	NS	omega
 			IN	NS	haestrom
@@ -13,6 +17,10 @@ $TTL		7200
 			IN	MX	10 mail
 
 
+
+;;;;;;;;;;;;;;;;
+;; PP SERVERS ;;
+;;;;;;;;;;;;;;;;
 
 amsterdam-nl		IN	A	149.210.173.165
 			IN	AAAA	2a01:7c8:aab4:592::2
@@ -42,6 +50,7 @@ illium			IN	A	82.94.175.171
 
 ci			IN	CNAME	illium
 forum			IN	CNAME	illium
+lidworden		IN	CNAME	illium
 oud			IN	CNAME	illium
 testing			IN	CNAME	illium
 pad			IN	CNAME	illium
@@ -68,12 +77,19 @@ tpb			IN	CNAME	omega
 
 
 
+;;;;;;;;;;;;;;;;;;;;;;
+;; EXTERNAL SERVERS ;;
+;;;;;;;;;;;;;;;;;;;;;;
+
 denhaag			IN	A	212.117.168.186
 irc			IN	CNAME	nl.pirateirc.net.
 leiden			IN	A	212.117.168.186
 
 
-;; oude servers
+
+;;;;;;;;;;;;;;;;;
+;; OLD SERVERS ;;
+;;;;;;;;;;;;;;;;;
 admin			IN	CNAME	anker
 amsterdam		IN	A	82.94.160.214
 anker			IN	A	82.94.252.82
@@ -110,7 +126,6 @@ kwartier		IN	A	82.94.175.187
 landvast		IN	A	77.72.148.139
 			IN	AAAA	2a01:7c8:aaae:4e9::1
 ldap			IN	CNAME	anker
-lidworden		IN	CNAME	webshop
 lists			IN	A	37.34.61.138
 			IN	AAAA	2a01:7c8:aaad:442::1
 			IN	MX	10 mail
