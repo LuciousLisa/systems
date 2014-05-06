@@ -59,6 +59,7 @@ phpmyadmin		IN	CNAME	illium
 programma		IN	CNAME	illium
 pwm			IN	CNAME	illium
 share			IN	CNAME	illium
+webshop			IN	CNAME	illium
 www			IN	CNAME	illium
 zehebbenonsgehoord	IN	CNAME	illium
 
@@ -102,10 +103,6 @@ civileden		IN	A	10.8.0.1
 civileden		IN	A	10.8.0.1
 civivpn			IN	A	82.94.160.210
 			IN	AAAA	2001:888:2000:73:1::210
-donaties		IN	CNAME	doneer
-doneer			IN	A	82.94.160.213
-			IN	AAAA	2001:888:2000:73:1::213
-doneren			IN	CNAME	doneer
 dump			IN	CNAME	voorsteven
 erp			IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
@@ -145,6 +142,4 @@ vrijwilligers		IN	A	82.94.160.213
 			IN	AAAA	2001:888:2000:73:1::213
 vrijwilligersopenerp	IN	A	82.94.175.135
 webmail			IN	CNAME	mail
-webshop			IN	A	82.94.252.86
-			IN	AAAA	2001:888:2000:73:1::86
 wiki			IN	CNAME	anker
