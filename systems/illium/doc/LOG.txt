@@ -260,3 +260,8 @@ The following NEW packages will be installed:
 illium :: oud.piratenpartij.nl/sites/piratenpartij.nl ‹develop*› » aptitude install php5-memcache -t testing
 The following NEW packages will be installed:
   php5-memcache 
+
+2014-05-06 geertjohan
+-----------------
+
+illium :: ~ » aptitude install memcached
