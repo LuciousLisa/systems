@@ -260,3 +260,11 @@ The following NEW packages will be installed:
 illium :: oud.piratenpartij.nl/sites/piratenpartij.nl ‹develop*› » aptitude install php5-memcache -t testing
 The following NEW packages will be installed:
   php5-memcache 
+
+2014-05-06 argure
+-----------------
+
+illium :: ~ » aptitude install dokuwiki
+The following NEW packages will be installed:
+  dokuwiki libjs-jquery-cookie{a} libjs-jquery-ui{a} libphp-simplepie{a} 
+  php-geshi{a} 

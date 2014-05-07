@@ -21,6 +21,14 @@ ACCEPT		net		fw		tcp	22
 ACCEPT		net		fw		tcp	53
 ACCEPT		net		fw		udp	53
 
+# LDAP(S)
+ACCEPT		$HAESTROM	fw		tcp	389
+ACCEPT		$ILLIUM		fw		tcp	389
+ACCEPT		$OMEGA		fw		tcp	389
+ACCEPT		$HAESTROM	fw		tcp	636
+ACCEPT		$ILLIUM		fw		tcp	636
+ACCEPT		$OMEGA		fw		tcp	636
+
 # MySQL
 ACCEPT		$HAESTROM	fw		tcp	3306
 ACCEPT		$ILLIUM		fw		tcp	3306
