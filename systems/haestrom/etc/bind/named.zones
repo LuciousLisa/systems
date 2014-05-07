@@ -10,8 +10,14 @@ zone "piratenpartij.nl." IN {
 	masters { 149.210.173.162; };
 };
 
-zone "zehebbenonsgehoord.nl." IN {
+zone "ppnl.nl." IN {
 	type	slave;
+	file 	"/var/cache/bind/ppnl.nl.zone.signed";
+	masters	{ 149.210.173.162; };
+};
+
+zone "zehebbenonsgehoord.nl." IN {
+	type 	slave;
 	file	"/var/cache/bind/zehebbenonsgehoord.nl.zone.signed";
 	masters { 149.210.173.162; };
 };
