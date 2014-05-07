@@ -202,3 +202,7 @@ illium :: /opt/seafile-server » aptitude install python-mysqldb             1 �
 The following NEW packages will be installed:
   python-mysqldb 
 
+2014-05-05 geertjohan
+-----------------
+
+omega :: » aptitude install htop

@@ -268,3 +268,8 @@ illium :: ~ » aptitude install dokuwiki
 The following NEW packages will be installed:
   dokuwiki libjs-jquery-cookie{a} libjs-jquery-ui{a} libphp-simplepie{a} 
   php-geshi{a} 
+
+2014-05-06 geertjohan
+-----------------
+
+illium :: ~ » aptitude install memcached
