@@ -206,3 +206,13 @@ The following NEW packages will be installed:
 -----------------
 
 omega :: » aptitude install htop
+
+2014-05-09 argure
+-----------------
+
+omega :: ~ » aptitude full-upgrade
+The following packages will be upgraded: 
+  base-files dpkg dpkg-dev libcurl3-gnutls libdpkg-perl libmysqlclient18 
+  libpq5 libsnmp-base libsnmp15 libssl-dev libssl-doc libssl1.0.0 
+  libwbclient0 linux-image-3.2.0-4-amd64 mysql-common openssl samba-common 
+  samba-common-bin smbclient snmp 

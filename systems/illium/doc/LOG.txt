@@ -273,3 +273,19 @@ The following NEW packages will be installed:
 -----------------
 
 illium :: ~ » aptitude install memcached
+
+2014-05-09 argure
+-----------------
+
+illium :: ~ » aptitude -t testing install libpango1.0-0 libpangoft2-1.0-0 libpangocairo-1.0-0                                                                                                                                           130 ↵
+The following NEW packages will be installed:
+  libpango1.0-0 libpangox-1.0-0{a} libpangoxft-1.0-0{a} libxft2{a} 
+
+illium :: ~ » aptitude full-upgrade
+The following NEW packages will be installed:
+  ttf-dejavu-extra{a} 
+The following packages will be REMOVED:
+  fonts-dejavu-extra{u} 
+The following packages will be upgraded:
+  base-files icedtea-6-jre-cacao icedtea-6-jre-jamvm icedtea-7-jre-jamvm jenkins libjbig0 liblcms2-2 libmysqlclient-dev libmysqlclient18 linux-image-3.2.0-4-amd64 linux-libc-dev mysql-client mysql-client-5.5 mysql-common 
+  openjdk-6-jre-headless openjdk-6-jre-lib openjdk-7-jre openjdk-7-jre-headless openssl tzdata tzdata-java 

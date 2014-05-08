@@ -157,3 +157,10 @@ The following NEW packages will be installed:
   automysqlbackup mysql-client{a} mysql-client-5.5{a} 
 The following packages will be upgraded:
   mysql-common 
+
+2014-05-09 argure
+-----------------
+
+haestrom :: ~ » aptitude full-upgrade
+The following packages will be upgraded: 
+  base-files dpkg dpkg-dev libdpkg-perl libjbig0 libmysqlclient18 libssl-dev libssl-doc libssl1.0.0 linux-image-3.2.0-4-amd64 linux-libc-dev openssl 

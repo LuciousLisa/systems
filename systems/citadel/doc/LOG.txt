@@ -27,3 +27,10 @@ The following NEW packages will be installed:
 citadel :: /etc/ldap » aptitude install ldap-utils
 The following NEW packages will be installed:
   ldap-utils 
+
+2014-05-09 argure
+-----------------
+
+citadel :: ~ » aptitude full-upgrade
+The following packages will be upgraded: 
+  base-files dpkg libmysqlclient18 libssl1.0.0 libxml2 linux-image-3.2.0-4-amd64 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 mysql-server-core-5.5 openssl 
